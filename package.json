@@ -1,0 +1,23 @@
+{
+  "name": "chatbot_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.15.1",
+    "axios": "^1.12.2",
+    "connect-redis": "^9.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "ioredis": "^5.7.0",
+    "redis": "^5.8.2"
+  }
+}
